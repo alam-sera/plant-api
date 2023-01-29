@@ -1,7 +1,9 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
+plant = Plant.new(
+  name: "Bamboo", 
+  description: "Dracaena sander
+  iana is a species of flowering plant in the family Asparagaceae, native to Centr
+  al Africa. It was named after the German English gardener Henry Frederick Conrad Sander. The plant is commonly marketed as 'lucky bamboo'.",
+  amount_of_sun: "6hrs/day",
+  days_to_water: 3,
+  image_url: "https://greencloudsolutions.co.za/wp-conte
+  nt/uploads/2018/09/Lucky-Bamboo-Stalks-239x300.jpg")
