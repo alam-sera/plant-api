@@ -7,7 +7,8 @@ class PlantsController < ApplicationController
   def create
     plant = Plant.create(
       name: params[:name],
-      
     )
   end 
+
+
 end

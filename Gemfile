@@ -8,12 +8,14 @@ gem "rails", "~> 7.0.4", ">= 7.0.4.1"
 
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
+gem 'base64'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 gem 'jwt'
+gem 'httparty'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 

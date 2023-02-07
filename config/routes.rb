@@ -3,4 +3,9 @@ Rails.application.routes.draw do
   post "/sessions" => "sessions#create"
 
   get "/plants" => "plants#index"
+
+
+  ### 
+  post "events" => "events#create"
+  get "events" => "events#index"
 end
